@@ -1,0 +1,33 @@
+.link{
+    text-decoration: none;
+    color: black;
+    width:240px;
+    border:0px solid white;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+}
+.link:hover{
+    background-color: grey;
+    border-radius: 8px;
+}
+.siderc1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 272px;
+}
+.linkservices{
+    text-decoration: none;
+    color: black;
+    width:240px;
+    border:0px solid white;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}

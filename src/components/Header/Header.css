@@ -1,0 +1,21 @@
+.headerc1{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 20px 0px 20px;
+}
+.headerheading{
+    /* font-size: ;
+    font-family: ;
+    font-weight: ; */
+    margin: 0px;
+    padding: 0px;
+    
+}
+.headerimage{
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin:0px;
+}

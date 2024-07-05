@@ -1,0 +1,57 @@
+.terminalcard{
+    width: 280px;
+    height:104px;
+    border: 2px solid white;
+    display: flex;
+
+}
+
+.terminalcard:hover{
+    border: 2px solid #147AF3;
+
+}
+.terminalcardimage{
+    width: 104px;
+    height: 104px;
+}
+.terminalcardinfo{
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    width: 100%;
+    
+}
+.terminalcardinfoheadingc1{
+    display: flex;
+    justify-content: space-between;
+    height: 18px;
+
+}
+.terminalcardinfoheading{
+    font-size: 14px;
+    font-weight: 600;
+   margin: 0px;
+    height: 17px;
+}
+.terminalcardinfodescription{
+    height: 40px;
+    font-size: 14px;
+}
+.terminaldots{
+    height: 18px;
+    width: 18px;
+    font-size:small;
+    margin: 0px;
+}
+.terminalbutton{
+    border-radius: 50px;
+    width: 121px;
+    border-width: 2px;
+    height: 32px;
+}
+.terminalc1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Adjust column width as needed */
+    gap: 25px;
+    align-items: center; /* Align items at the start of each grid cell */
+}

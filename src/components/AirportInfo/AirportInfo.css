@@ -1,0 +1,33 @@
+.tab-list {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab.active {
+    border-bottom-color: #007bff; /* Example of active tab indicator color */
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+   
+  }
+  .airportinfomh{
+    font-size: 16px;
+    font-weight: 400;
+    color: #464646;
+  }
+  .airportinfom{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .airportinfomainheading{
+    font-size: 34px;
+    font-weight: 700;
+  }
